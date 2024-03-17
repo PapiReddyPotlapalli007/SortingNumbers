@@ -1,0 +1,100 @@
+﻿@model ExportNumbers.Models.NumberViewModel
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Sort Numbers</h2>
+                    <form id="sortForm" asp-controller="NumbersSorting" asp-action="Sort" method="post" class="mt-4">
+                        <div class="form-group">
+                            <label asp-for="Numbers">Enter Numbers (comma-separated):</label>
+                            <input asp-for="Numbers" class="form-control" />
+                            <span asp-validation-for="Numbers" class="text-danger" id="numbersValidation"></span>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label asp-for="SortingDirection">Sorting Direction:</label>
+                            <select asp-for="SortingDirection" class="form-control">
+                                <option value="asc">Ascending</option>
+                                <option value="desc">Descending</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="form-group" style="margin-top:10px;">
+                            <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body" id="DisplaySortedSequences">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        $(document).ready(function () {           
+            loadExstingNumbers();
+          
+            $('#sortForm').submit(function (e) {
+                debugger;
+                e.preventDefault();
+                var isValid = validateNumbersInput();
+                if (!isValid) {
+                    return;
+                }
+                var formData = $(this).serialize();
+                $.ajax({
+                    url: '@Url.Action("Sort", "NumbersSorting")',
+                    type: 'POST',
+                    data: formData,
+                    success: function (response) {
+                        toastr.success(response.message, 'Success', { "closeButton": true });
+                        loadExstingNumbers();
+                    },
+                    error: function (xhr, status, error) {
+                        toastr.error("something went wrong", 'Error', { "closeButton": true });
+                    }
+                });
+            });
+
+
+        });
+        $('#Numbers').on('input',function () {
+            debugger;
+            if (validateNumbersInput()) {
+                $('#submitButton').prop('disabled', false);
+            } else {
+                $('#submitButton').prop('disabled', true);
+            }
+        });
+        function loadExstingNumbers() {
+            $('#DisplaySortedSequences').load('/NumbersSorting/DisplaySortedSequences');
+        }
+
+        function validateNumbersInput() {
+            debugger;
+            var numbersInput = $('#Numbers').val();
+            if(numbersInput=='' || numbersInput==null)
+            {
+                $('#numbersValidation').text("Numbers field is required");
+                return false;
+            }
+            var numbersPattern = /^\d+(,\d+)*$/;
+            if (!numbersPattern.test(numbersInput)) {
+                $('#numbersValidation').text("Please enter valid integer numbers (comma-separated).");
+                return false;
+            } else {
+                $('#numbersValidation').text("");
+                return true;
+            }
+        }
+    </script>
+}
+
+

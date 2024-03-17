@@ -1,0 +1,12 @@
+C:\Users\papir\Downloads\New Code\ExportNumbers.DAL\bin\Debug\net6.0\ExportNumbers.DAL.deps.json
+C:\Users\papir\Downloads\New Code\ExportNumbers.DAL\bin\Debug\net6.0\ExportNumbers.DAL.dll
+C:\Users\papir\Downloads\New Code\ExportNumbers.DAL\bin\Debug\net6.0\ExportNumbers.DAL.pdb
+C:\Users\papir\Downloads\New Code\ExportNumbers.DAL\obj\Debug\net6.0\ExportNumbers.DAL.csproj.AssemblyReference.cache
+C:\Users\papir\Downloads\New Code\ExportNumbers.DAL\obj\Debug\net6.0\ExportNumbers.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\papir\Downloads\New Code\ExportNumbers.DAL\obj\Debug\net6.0\ExportNumbers.DAL.AssemblyInfoInputs.cache
+C:\Users\papir\Downloads\New Code\ExportNumbers.DAL\obj\Debug\net6.0\ExportNumbers.DAL.AssemblyInfo.cs
+C:\Users\papir\Downloads\New Code\ExportNumbers.DAL\obj\Debug\net6.0\ExportNumbers.DAL.csproj.CoreCompileInputs.cache
+C:\Users\papir\Downloads\New Code\ExportNumbers.DAL\obj\Debug\net6.0\ExportNumbers.DAL.dll
+C:\Users\papir\Downloads\New Code\ExportNumbers.DAL\obj\Debug\net6.0\refint\ExportNumbers.DAL.dll
+C:\Users\papir\Downloads\New Code\ExportNumbers.DAL\obj\Debug\net6.0\ExportNumbers.DAL.pdb
+C:\Users\papir\Downloads\New Code\ExportNumbers.DAL\obj\Debug\net6.0\ref\ExportNumbers.DAL.dll

@@ -1,0 +1,15 @@
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\bin\Debug\net6.0\ExportNumbers.BAL.deps.json
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\bin\Debug\net6.0\ExportNumbers.BAL.dll
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\bin\Debug\net6.0\ExportNumbers.BAL.pdb
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\bin\Debug\net6.0\ExportNumbers.DAL.dll
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\bin\Debug\net6.0\ExportNumbers.DAL.pdb
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\obj\Debug\net6.0\ExportNumbers.BAL.csproj.AssemblyReference.cache
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\obj\Debug\net6.0\ExportNumbers.BAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\obj\Debug\net6.0\ExportNumbers.BAL.AssemblyInfoInputs.cache
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\obj\Debug\net6.0\ExportNumbers.BAL.AssemblyInfo.cs
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\obj\Debug\net6.0\ExportNumbers.BAL.csproj.CoreCompileInputs.cache
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\obj\Debug\net6.0\ExportNumbers.BAL.csproj.CopyComplete
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\obj\Debug\net6.0\ExportNumbers.BAL.dll
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\obj\Debug\net6.0\refint\ExportNumbers.BAL.dll
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\obj\Debug\net6.0\ExportNumbers.BAL.pdb
+C:\Users\papir\Downloads\New Code\ExportNumbers.BAL\obj\Debug\net6.0\ref\ExportNumbers.BAL.dll
