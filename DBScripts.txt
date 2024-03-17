@@ -1,0 +1,8 @@
+create database ExportSortedNumbers
+Use ExportSortedNumbers
+CREATE TABLE NumberSequence (
+    Id INT PRIMARY KEY IDENTITY,
+    Sequence NVARCHAR(MAX),
+    SortingDirection NVARCHAR(MAX),
+    SortTime INT
+);
